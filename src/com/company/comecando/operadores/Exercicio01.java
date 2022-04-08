@@ -11,7 +11,7 @@ Para os números que você vai receber pelo console, pode utilizar a mesma funci
 * número 1 será adição, o 2 subtração, o 3 multiplicação e o 4 divisão.
 
 Com esses três valores - os dois números e qual será a operação - você pode utilizar a estrutura de decisão if para só
-* realizar a operação que o usuário escolheu. .
+* realizar a operação que o usuário escolheu.
 * */
 
 public class Exercicio01 {
