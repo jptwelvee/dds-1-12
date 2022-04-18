@@ -15,7 +15,7 @@ public class Exercicio03 {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Digite o número referente ao dia da semana: ");
         Integer diaDaSemana = scanner.nextInt();
-        String dia;
+        String dia = null;
         switch (diaDaSemana) {
             case 1: dia = "domingo";
                 break;
