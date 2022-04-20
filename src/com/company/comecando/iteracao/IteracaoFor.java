@@ -9,13 +9,13 @@ public class IteracaoFor {
 
 
 
-//		Double[] carrinhoDeCompras = new Double[]{ 50.0, 51.0, 52.0 };
-//		Double total = 0.0;
-//		for(int i = 0; i < carrinhoDeCompras.length; i++) {
-//			total = total + carrinhoDeCompras[i];
-//			System.out.println("Iteração: " + i + ", Total: " + total);
-//		}
-//		System.out.println("Total: " + total);
+		Double[] carrinhoDeCompras = new Double[]{ 50.0, 51.0, 52.0 };
+		Double total = 0.0;
+		for(int i = 0; i < carrinhoDeCompras.length; i++) {
+			total = total + carrinhoDeCompras[i];
+			System.out.println("Iteração: " + i + ", Total: " + total);
+		}
+		System.out.println("Total: " + total);
 
 
 
@@ -41,14 +41,14 @@ public class IteracaoFor {
 
 
 
-        Integer[] produtos = new Integer[]{ 100, 225, 300 };
-        for(int i = 0; i < produtos.length; i++) {
-            Integer produto = produtos[i];
-            System.out.println("Produto de código: " + produto);
-            if (produto.equals(225)) {
-                System.out.println("Produto encontrado!");
-                break;
-            }
-        }
+//        Integer[] produtos = new Integer[]{ 100, 225, 300 };
+//        for(int i = 0; i < produtos.length; i++) {
+//            Integer produto = produtos[i];
+//            System.out.println("Produto de código: " + produto);
+//            if (produto.equals(225)) {
+//                System.out.println("Produto encontrado!");
+//                break;
+//            }
+//        }
     }
 }
