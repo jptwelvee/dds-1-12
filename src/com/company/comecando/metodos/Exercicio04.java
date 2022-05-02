@@ -48,4 +48,5 @@ public class Exercicio04 {
             imprimirTabuada(multiplicando, multiplicador);
         }
     }
+
 }
