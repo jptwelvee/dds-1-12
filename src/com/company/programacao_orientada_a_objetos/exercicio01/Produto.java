@@ -4,7 +4,7 @@ public class Produto {
 
     static final Integer QUANTIDADE_MINIMA_ESTOQUE = 10;
 
-    String nome;
+    public String nome;
 
-    Integer quantidadeEstoque;
+    public Integer quantidadeEstoque;
 }
