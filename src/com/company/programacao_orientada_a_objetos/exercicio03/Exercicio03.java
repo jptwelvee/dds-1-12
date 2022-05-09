@@ -37,6 +37,7 @@ public class Exercicio03 {
         System.out.println("Código: " + pedido.getCodigo() + ", Subtotal: " + pedido.getSubtotal() +
                 ", Desconto: " + pedido.getDesconto() + ", Total: " + pedido.getTotal());
 
+
     }
 
 }

@@ -17,6 +17,7 @@ public class Pedido {
     }
     Double getSubtotal() {
         return subtotal;
+
     }
     void setSubtotal(Double subtotal) {
         this.subtotal = subtotal;
