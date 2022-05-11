@@ -1,4 +1,4 @@
-package com.company.leitura_e_escrita_de_dados_em_arquivos.exercicio01;
+package com.company.leitura_e_escrita_de_dados_em_arquivos;
 /*
 Crie uma lista de tarefas e salve a lista em um arquivo
 Crie um programa que vai receber, através do console, uma lista de atividades que vai ajudar o usuário a planejar suas tarefas para o dia seguinte.
