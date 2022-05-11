@@ -1,0 +1,6 @@
+package com.company.logica.programacao_orientada_a_objetos.classe_instancia;
+
+public class Produto {
+    public static Integer quantidadeMinimaEstoque = 1;
+    public String nome;
+}
