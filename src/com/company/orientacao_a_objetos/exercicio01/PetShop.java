@@ -1,4 +1,4 @@
-package com.company.orientacao_a_objetos;
+package com.company.orientacao_a_objetos.exercicio01;
 /*
 instanciando e acessando atributos do objeto
 Utilizando o IntelliJ, vamos fazer este primeiro exercícios sobre Orientação a Objetos. Fique a vontade para criar outro projeto ou utilizar um existente.
@@ -10,5 +10,17 @@ Um pet shop te chamou para ajudar no controle dos animais que eles cuidam. Eles 
 5. Agora, mostre na saída os valores deste objeto.
 6. Execute o programa e veja o resultado na saída do console. Arrisque um pouco, crie outro objeto do tipo "Cachorro" e tente perceber que são objetos diferentes criados a partir de uma única classe.
  */
-public class Exercicio01 {
+public class PetShop {
+    public static void main(String[] args) {
+        Cachorro cachorro = new Cachorro();
+        cachorro.nome = "Bidu";
+        cachorro.idade = 1;
+        cachorro.raca = "Boxer";
+        cachorro.sexo = 'M';
+        System.out.println("Nome: " + cachorro.nome);
+        System.out.println("Idade: " + cachorro.idade);
+        System.out.println("Ra�a: " + cachorro.raca);
+        System.out.println("Sexo: " + cachorro.sexo);
+    }
+
 }
