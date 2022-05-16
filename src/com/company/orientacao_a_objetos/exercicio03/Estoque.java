@@ -7,6 +7,5 @@ public class Estoque {
         for (int i = 0; i < produtos.length; i++){
             produtos[i].descrever();
         }
-    }
 
 }

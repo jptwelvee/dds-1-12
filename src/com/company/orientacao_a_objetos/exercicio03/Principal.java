@@ -19,7 +19,6 @@ public class Principal {
             scanner.nextLine();
         }
         estoque.listarProdutos();
-
     }
 }
 
