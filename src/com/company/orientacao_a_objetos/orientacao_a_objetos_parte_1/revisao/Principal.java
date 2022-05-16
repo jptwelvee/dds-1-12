@@ -1,4 +1,4 @@
-package com.company.orientacao_a_objetos.revisao;
+package com.company.orientacao_a_objetos.orientacao_a_objetos_parte_1.revisao;
 public class Principal {
     public static void main(String[] args) {
         Carro meuCarro = new Carro();

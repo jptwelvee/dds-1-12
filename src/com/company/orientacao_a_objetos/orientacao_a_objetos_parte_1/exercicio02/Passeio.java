@@ -1,4 +1,4 @@
-package com.company.orientacao_a_objetos.exercicio02;
+package com.company.orientacao_a_objetos.orientacao_a_objetos_parte_1.exercicio02;
 /*
 composição de objetos e chamada de métodos
 Vamos aproveitar a ideia do último exercício e aprender um pouco mais.

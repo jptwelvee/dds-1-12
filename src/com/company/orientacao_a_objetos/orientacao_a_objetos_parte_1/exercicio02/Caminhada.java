@@ -1,4 +1,4 @@
-package com.company.orientacao_a_objetos.exercicio02;
+package com.company.orientacao_a_objetos.orientacao_a_objetos_parte_1.exercicio02;
 public class Caminhada {
     public void andar(Pessoa pessoa) {
         System.out.println("Eu \"" + pessoa.nome + "\""

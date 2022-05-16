@@ -1,4 +1,4 @@
-package com.company.orientacao_a_objetos.exercicio03;
+package com.company.orientacao_a_objetos.wrappers_boxing_e_arrays.exercicio03;
 public class Produto {
     String descricao;
     int quantidade;
