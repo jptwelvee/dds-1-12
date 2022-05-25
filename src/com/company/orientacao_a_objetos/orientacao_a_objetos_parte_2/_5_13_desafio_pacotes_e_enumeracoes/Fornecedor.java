@@ -2,7 +2,7 @@ package com.company.orientacao_a_objetos.orientacao_a_objetos_parte_2._5_13_desa
 public class Fornecedor {
     public String nome;
     public String getNome() {
-        return this.nome;
+        return nome;
     }
     public void setNome(String nome) {
         this.nome = nome;
