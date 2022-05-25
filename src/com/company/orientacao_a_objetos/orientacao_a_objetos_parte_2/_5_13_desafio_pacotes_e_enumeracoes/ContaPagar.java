@@ -1,5 +1,4 @@
 package com.company.orientacao_a_objetos.orientacao_a_objetos_parte_2._5_13_desafio_pacotes_e_enumeracoes;
-
 public class ContaPagar {
     private String descricao;
     private Double valor;
@@ -11,14 +10,14 @@ public class ContaPagar {
         this.situacaoConta = SituacaoConta.PENDENTE;
     }
 
-    public ContaPagar(Fornecedor fornecedor, String descricao, Double valor, String dataVencimento) {
-        // chamando o construtor sem parâmetros
+    public ContaPagar(String descricao, Double valor, String dataVencimento, Fornecedor fornecedor) {
         this();
-        this.fornecedor = fornecedor;
         this.descricao = descricao;
         this.valor = valor;
         this.dataVencimento = dataVencimento;
+        this.fornecedor = fornecedor;
     }
+
     public void pagar() {
         if (SituacaoConta.PAGA.equals(this.getSituacaoConta())) {
             System.out.println("Não pode pagar uma conta que já está paga: "
@@ -35,28 +34,19 @@ public class ContaPagar {
         }
     }
 
-    public void cancelar() {
-        if (SituacaoConta.PAGA.equals(this.getSituacaoConta())) {
-            System.out.println("Não pode cancelar uma conta que já foi paga: " + this.getDescricao() + ".");
+    public void cancelar(){
+        if (SituacaoConta.PAGA.equals(this.getSituacaoConta())){
+            System.out.println("Não pode cancelar uma conta que fá foi paga: " + this.getDescricao());
         } else if (SituacaoConta.CANCELADA.equals(this.getSituacaoConta())) {
-            System.out.println("Não pode cancelar uma conta que já foi cancelada: " + this.getDescricao() + ".");
+            System.out.println("Não pode cancelar uma conta que já foi cancelada: " + this. getDescricao());
         } else {
             System.out.println("Cancelando conta " + this.getDescricao() + ".");
-            // altera situação da conta para CANCELADA
             this.situacaoConta = SituacaoConta.CANCELADA;
         }
     }
 
-    public Fornecedor getFornecedor() {
-        return this.fornecedor;
-    }
-
-    public void setFornecedor(Fornecedor fornecedor) {
-        this.fornecedor = fornecedor;
-    }
-
     public String getDescricao() {
-        return this.descricao;
+        return descricao;
     }
 
     public void setDescricao(String descricao) {
@@ -64,7 +54,7 @@ public class ContaPagar {
     }
 
     public Double getValor() {
-        return this.valor;
+        return valor;
     }
 
     public void setValor(Double valor) {
@@ -72,14 +62,22 @@ public class ContaPagar {
     }
 
     public String getDataVencimento() {
-        return this.dataVencimento;
+        return dataVencimento;
     }
 
     public void setDataVencimento(String dataVencimento) {
         this.dataVencimento = dataVencimento;
     }
 
+    public Fornecedor getFornecedor() {
+        return fornecedor;
+    }
+
+    public void setFornecedor(Fornecedor fornecedor) {
+        this.fornecedor = fornecedor;
+    }
+
     public SituacaoConta getSituacaoConta() {
-        return this.situacaoConta;
+        return situacaoConta;
     }
 }
