@@ -19,6 +19,21 @@ public class ContaPagar {
         this.valor = valor;
         this.dataVencimento = dataVencimento;
     }
+    public void pagar() {
+        if (SituacaoConta.PAGA.equals(this.getSituacaoConta())) {
+            System.out.println("Não pode pagar uma conta que já está paga: "
+                    + this.getDescricao() + ".");
+        } else if (SituacaoConta.CANCELADA.equals(this.getSituacaoConta())) {
+            System.out.println("Não pode pagar uma conta que está cancelada: "
+                    + this.getDescricao() + ".");
+        } else {
+            System.out.println("Pagando conta " + this.getDescricao() + " no valor de "
+                    + this.getValor() + " e vencimento em " + this.getDataVencimento()
+                    + " do fornecedor " + this.getFornecedor().getNome() + ".");
+            // altera situação da conta para PAGA
+            this.situacaoConta = SituacaoConta.PAGA;
+        }
+    }
 
     public void cancelar() {
         if (SituacaoConta.PAGA.equals(this.getSituacaoConta())) {
