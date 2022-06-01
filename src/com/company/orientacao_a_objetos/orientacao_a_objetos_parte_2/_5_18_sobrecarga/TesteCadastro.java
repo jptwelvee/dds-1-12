@@ -6,5 +6,6 @@ public class TesteCadastro {
         Pessoa pessoa = new Pessoa("José", 32);
         cadastro.cadastrar(pessoa);
         cadastro.cadastrar("Maria", 25);
+
     }
 }
