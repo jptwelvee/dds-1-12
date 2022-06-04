@@ -2,10 +2,10 @@ package com.company.orientacao_a_objetos.orientacao_a_objetos_parte_2._5_18_sobr
 
 public class TesteCadastro {
     public static void main(String[] args) {
-        CadastroPessoa cadastro = new CadastroPessoa();
+        CadastroPessoa cadastroPessoa = new CadastroPessoa();
         Pessoa pessoa = new Pessoa("José", 32);
-        cadastro.cadastrar(pessoa);
-        cadastro.cadastrar("Maria", 25);
+        cadastroPessoa.cadastrar(pessoa);
+        cadastroPessoa.cadastrar("Maria", 25);
 
     }
 }
